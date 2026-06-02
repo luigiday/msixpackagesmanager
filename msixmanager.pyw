@@ -167,7 +167,7 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)  # Create the QApplication object
 
     if messagebox.askyesno("Pre-launch warning - MSIX Package Manager by colin524", "WARNING !\nThis program is just a graphical frontend for PowerShell Remove-Package commands, wich means it can uninstall any package PowerShell can, including potentially important ones.\n\nDo you wish to proceed ?\n\n(The creator is not responsible for system breakages using this software, don't continue if you don't know what you are doing)", icon=messagebox.WARNING):
-        pass
+        messagebox.showwarning("Warning", "This tool is OLD and might no longer work properly, you should probably not use it as it is also unmaintained")
     else:
         sys.exit()
     
