@@ -1,3 +1,5 @@
+ ⚠️ WARNING ⚠️ : THIS TOOL IS NO LONGER MAINTAINED AS I SWITCHED TO LINUX AND THUS CANNOT CONTINUE DEVLOPPING WINDOWS APPS
+
 # MSIX Package Manager
 A tool to uninstall any MSIX (UWP apps for example) package
 
